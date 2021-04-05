@@ -7,8 +7,8 @@ using ariel::Direction;
 
 namespace ariel{
 
-void Board::post(unsigned int row, unsigned int col, Direction direction, string const &ad){
-     //code
+void Board::post(unsigned int row, unsigned int col, Direction direction, string ad){
+     ad+="";
 }
 
 string Board::read(unsigned int row, unsigned int col,Direction direction, unsigned int letters){
