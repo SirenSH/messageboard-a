@@ -11,7 +11,7 @@ namespace ariel{
                 unsigned int row,col;
 
         public:
-        static void post(unsigned int row, unsigned int col, Direction direction, string const &ad);
+        static void post(unsigned int row, unsigned int col, Direction direction, string ad);
         static string read(unsigned int row, unsigned int col, Direction direction,unsigned int letters);
          void show();
         };
